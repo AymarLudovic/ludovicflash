@@ -1,0 +1,39 @@
+```css
+/* Base styles */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom styles */
+.bg-primary {
+  background-color: #0070f3;
+}
+
+.text-primary {
+  color: #0070f3;
+}
+
+.border-primary {
+  border-color: #0070f3;
+}
+
+/* Landing page styles */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.landing-page-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.landing-page-subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+```
